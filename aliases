@@ -13,3 +13,6 @@ alias bi='bundle install'
 # Open Sublime Text with a very short command!
 alias s='st .'
 
+# Admin interfaces
+alias admin_winter='~/code/utils/admin_winter.sh'
+alias admin_summer='~/code/utils/admin_prod.sh'
