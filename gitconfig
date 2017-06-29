@@ -16,7 +16,6 @@
 [core]
 	editor = '' -n -w
   pager = less -FRSX
-  mergeoptions = --no-edit
 
 [alias]
   co = checkout
@@ -48,3 +47,6 @@
 
 [push]
 	default = simple
+
+[branch "master"]
+  mergeoptions = --no-edit
